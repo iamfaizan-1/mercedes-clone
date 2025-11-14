@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+
+    --primary: #9f9f9f;
+}
+.nav1{
+    display: flex;
+    padding: 20px 25px 20px 20px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+}
+
+.unorder{
+   width: 20%;
+   list-style-type: none;
+   display: flex;
+   gap: 20px;
+}
+
+
+#lastList{
+    margin-left: 40px;
+}
+
+.logo{
+    width: 60%;
+    display: flex;
+    justify-content: center
+;
+}
+
+#form{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    
+}
+.form{
+    width: 20%;
+    
+}
+
+.input{
+    border: none;
+    background-color: black;
+    width: 80px;
+    padding: 5px;
+}
+
+.login{
+     border: none;
+    background-color: black;
+    width: 80px;
+    color: var(--primary);
+}
+.active-li{
+    color: white;
+    transition: color 0.3s ease;
+}
+.unorder li:hover{
+color: white;
+transition: color 0.3s ease;
+}
+
+.login:hover{
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav2{
+    background-color: rgb(35, 34, 34);
+    color: white;
+}
+.unorder2{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.unorder2 li:hover{
+    color: white;
+    transition: color 0.5s ease;
+}
+.nav-item{
+    display: none;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .list,.form{
+        display: none;
+    }
+    .nav2{
+        display: none;
+        
+    }
+    .nav-item{
+    display: block;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+}
