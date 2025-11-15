@@ -86,6 +86,7 @@ transition: color 0.3s ease;
     gap: 25px;
     font-size: 14px;
     padding: 20px 0px;
+    margin-bottom: 0px;
 }
 
 .unorder2 li:hover{
@@ -96,6 +97,39 @@ transition: color 0.3s ease;
     display: none;
     list-style-type: none;
 }
+
+/* hero section */
+
+
+.heroimg{
+    background-image: url("./assets/mercedes\ hero.jpeg");
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+}
+.heading{
+    color: white;
+}
+
+.herocontent{
+    width: 40%;
+    background-color: #252424;
+    border-radius: 50px;
+    padding: 20px ;
+}
+
+
+.button2{
+    width: 160px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.icon{
+    font-size: 10px;
+}
+
 
 
 
@@ -119,4 +153,32 @@ transition: color 0.3s ease;
     display: flex;
     justify-content: end;
 }
+.heroimg{
+    display: flex;
+    justify-content: end !important;
+    
+}
+.herocontent{
+    width: 40%;
+    gap: 5px !important;
+}
+.heading h1{
+    font-size: 20px;
+}
+.button2{
+    width: 100px;
+    font-size: 10px;
+}
+}
+
+@media (max-width: 768px) {
+   .herocontent{
+    width: 100%;
+    gap: 5px !important;
+   
+} 
+.heroimg{
+    padding-right: 20px;
+}
+
 }
