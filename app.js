@@ -11,3 +11,10 @@ navbar2.addEventListener("mouseleave",() =>{
     navbar2.style.transition = "color 0.5s ease"
 })
 
+
+let logo = document.querySelector("#logo")
+
+logo.addEventListener("click",()=>{
+  document.location = "./index.html"
+})
+
