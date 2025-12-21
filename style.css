@@ -1,12 +1,20 @@
 *{
     margin: 0px;
     padding: 0px;
+font-family: "Lora",serif;
+letter-spacing: 0.1em;
+    
 }
+
+
 
 :root{
 
     --primary: #9f9f9f;
 }
+
+
+
 .nav1{
     display: flex;
     padding: 20px 25px 20px 20px;
@@ -66,15 +74,19 @@
 .active-li{
     color: white;
     transition: color 0.3s ease;
+    
 }
 .unorder li:hover{
 color: white;
 transition: color 0.3s ease;
+border-bottom: 1px solid white;
+transition: border 0.3s ease;
 }
 
 .login:hover{
     color: white;
     transition: color 0.3s ease;
+    
 }
 
 .nav2{
@@ -89,11 +101,13 @@ transition: color 0.3s ease;
     font-size: 14px;
     padding: 20px 0px;
     margin-bottom: 0px;
+    
 }
 
 .unorder2 li:hover{
     color: white;
     transition: color 0.5s ease;
+    border-bottom: 1px solid white;
 }
 .nav-item{
     display: none;
@@ -208,6 +222,59 @@ margin-left: 70px;
 
 
 
+/* footer last */
+
+
+.footerLast{
+    background-color: black;
+    padding: 50px;
+    border-bottom: 1px solid #333333;
+    
+}
+.footLast2{
+    background-color: black;
+    color: var(--primary);
+    padding: 60px 0px;
+}
+.foothead h2{
+    margin-bottom: 70px;
+    color: var(--primary);
+}
+
+.footList{
+    color: var(--primary);
+    }
+
+    .footList ul{
+        list-style-type: none;
+padding-left: 0px;
+font-size: 14px;
+    }
+
+
+    .footLastList{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        
+    }
+.footLastList h6{
+    font-size: 14px;
+}
+.mydiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.brand h6{
+    font-size: 14px;
+}
+
+
+.footLastpara {
+    font-size: 14px;
+}
+
 
 @media (max-width: 1024px) {
 
@@ -251,6 +318,10 @@ margin-left: 70px;
     gap: 5px !important;
    
 } 
+.footLastList{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .footer1{
     padding: 20px 30px;
     
