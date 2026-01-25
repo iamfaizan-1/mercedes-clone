@@ -1,9 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
-font-family: "Lora",serif;
+
 letter-spacing: 0.1em;
     
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Lora",serif;
 }
 
 
@@ -273,6 +277,11 @@ font-size: 14px;
 
 .footLastpara {
     font-size: 14px;
+}
+
+.footList li{
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
 
