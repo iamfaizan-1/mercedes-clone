@@ -92,6 +92,9 @@ transition: border 0.3s ease;
     transition: color 0.3s ease;
     
 }
+.dropdown-item{
+    font-size: 12px;
+}
 
 .nav2{
     background-color: rgb(35, 34, 34);
@@ -285,6 +288,8 @@ font-size: 14px;
 }
 
 
+
+
 @media (max-width: 1024px) {
 
     .list,.form{
@@ -327,6 +332,10 @@ font-size: 14px;
     gap: 5px !important;
    
 } 
+.footer-lists{
+ border-bottom: 1px solid grey;   
+ margin-bottom: 20px;
+}
 .footLastList{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
